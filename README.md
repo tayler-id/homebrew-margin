@@ -10,6 +10,6 @@ brew install --cask margin
 
 Homebrew loads a cask from another person's tap only once you trust that tap.
 
-The app is signed with Developer ID but not yet notarized, so macOS stops its first launch. Open System Settings, then Privacy & Security, and click Open Anyway beside Margin.
+The app is signed with Developer ID and notarized by Apple, so it opens on its first launch. To update later, run `brew upgrade --cask margin`.
 
 `brew uninstall --cask margin` removes the app. Add `--zap` to remove its settings and its Application Support folder too.
