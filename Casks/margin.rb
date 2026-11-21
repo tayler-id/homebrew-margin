@@ -1,6 +1,6 @@
 cask "margin" do
-  version "0.1.8"
-  sha256 "678a520d33c6aac201a83dce4a075968a4bfb3398d4b7920108c33dda169483e"
+  version "0.1.9"
+  sha256 "8809f0de8bb851720f8e45171f97b7691645a6f22eda959d854d67234ae3a233"
 
   url "https://github.com/tayler-id/margin-releases/releases/download/v#{version}/Margin-#{version}.zip"
   name "Margin"
